@@ -1,0 +1,21 @@
+{
+  "_comment": "Example configuration for testing. Replace with your actual ABP Framework backend URLs and client ID.",
+  "oAuthConfig": {
+    "issuer": "http://localhost:44305/",
+    "redirectUri": "http://localhost:4202",
+    "clientId": "abp018_App",
+    "responseType": "code",
+    "scope": "offline_access abp018",
+    "requireHttps": false
+  },
+  "application": {
+    "baseUrl": "http://localhost:4202",
+    "name": "ReactTest"
+  },
+  "apis": {
+    "default": {
+      "url": "http://localhost:44305",
+      "rootNamespace": "abp018"
+    }
+  }
+}
