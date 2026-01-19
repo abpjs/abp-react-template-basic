@@ -14,25 +14,18 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@abpjs/account": "file:../abp-react/packages/account",
-    "@abpjs/core": "file:../abp-react/packages/core",
-    "@abpjs/theme-basic": "file:../abp-react/packages/theme-basic",
-    "@abpjs/theme-shared": "file:../abp-react/packages/theme-shared",
+    "@abpjs/account": "^0.7.6",
+    "@abpjs/core": "^0.7.6",
+    "@abpjs/theme-basic": "^0.7.6",
+    "@abpjs/theme-shared": "^0.7.6",
     "@chakra-ui/react": "^3.3.1",
     "@emotion/react": "^11.14.0",
     "@reduxjs/toolkit": "^2.0.0",
+    "lucide-react": "^0.562.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-redux": "^9.0.0",
     "react-router-dom": "^7.1.1"
-  },
-  "pnpm": {
-    "overrides": {
-      "@abpjs/core": "file:../abp-react/packages/core",
-      "@abpjs/theme-shared": "file:../abp-react/packages/theme-shared",
-      "@abpjs/theme-basic": "file:../abp-react/packages/theme-basic",
-      "@abpjs/account": "file:../abp-react/packages/account"
-    }
   },
   "devDependencies": {
     "@eslint/js": "^9.18.0",

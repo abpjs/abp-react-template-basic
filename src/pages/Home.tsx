@@ -9,6 +9,7 @@ import {
   Link,
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
+import { Rocket, BookOpen, Users, LogIn } from 'lucide-react';
 
 export function HomePage() {
   return (
@@ -19,17 +20,20 @@ export function HomePage() {
           <Heading size="lg" mb={2}>
             Welcome
           </Heading>
-          <Text color="gray.600" mb={4}>
+          <Text mb={4}>
             Welcome to the application. This is a startup project based on ABP React. For more
             information, visit{' '}
-            <Link href="https://docs.abpjs.io/abp-react" color="blue.500" target="_blank">
+            <Link href="https://docs.abpjs.io/docs" target="_blank">
               docs.abpjs.io
             </Link>
             .
           </Text>
-          <Button as={RouterLink} to="/account/login" colorScheme="blue">
-            Login
-          </Button>
+          <RouterLink to="/account/login">
+            <Button>
+              <LogIn size={18} />
+              Login
+            </Button>
+          </RouterLink>
         </Card.Body>
       </Card.Root>
 
@@ -38,19 +42,16 @@ export function HomePage() {
         <Card.Root>
           <Card.Body>
             <VStack align="start" gap={3}>
+              <Rocket size={28} />
               <Heading size="md">Getting Started</Heading>
-              <Text color="gray.600">
+              <Text>
                 Learn how to create and run a new web application using the ABP React template.
               </Text>
-              <Button
-                as={Link}
-                href="https://docs.abpjs.io/abp-react/getting-started"
-                target="_blank"
-                colorScheme="pink"
-                size="sm"
-              >
-                Getting Started
-              </Button>
+              <Link href="https://docs.abpjs.io/abp-react/getting-started" target="_blank">
+                <Button variant="outline"  size="sm">
+                  Getting Started
+                </Button>
+              </Link>
             </VStack>
           </Card.Body>
         </Card.Root>
@@ -59,19 +60,16 @@ export function HomePage() {
         <Card.Root>
           <Card.Body>
             <VStack align="start" gap={3}>
+              <BookOpen size={28} />
               <Heading size="md">Documentation</Heading>
-              <Text color="gray.600">
+              <Text>
                 Explore the full documentation for ABP React packages and components.
               </Text>
-              <Button
-                as={Link}
-                href="https://docs.abpjs.io/abp-react"
-                target="_blank"
-                colorScheme="pink"
-                size="sm"
-              >
-                View Docs
-              </Button>
+              <Link href="https://docs.abpjs.io/abp-react" target="_blank">
+                <Button variant="outline"  size="sm">
+                  View Docs
+                </Button>
+              </Link>
             </VStack>
           </Card.Body>
         </Card.Root>
@@ -80,21 +78,17 @@ export function HomePage() {
         <Card.Root>
           <Card.Body>
             <VStack align="start" gap={3}>
+              <Users size={28} />
               <Heading size="md">ABP Community</Heading>
-              <Text color="gray.600">
+              <Text>
                 Join the ABP community to discover articles, videos, and connect with other
                 developers.
               </Text>
-              <Button
-                as={Link}
-                href="https://abp.io/community"
-                target="_blank"
-                variant="outline"
-                colorScheme="pink"
-                size="sm"
-              >
-                Join Community
-              </Button>
+              <Link href="https://abp.io/community" target="_blank">
+                <Button variant="outline" size="sm">
+                  Join Community
+                </Button>
+              </Link>
             </VStack>
           </Card.Body>
         </Card.Root>

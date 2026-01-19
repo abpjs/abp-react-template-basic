@@ -11,6 +11,7 @@ build
 
 # Editor directories and files
 .vscode/*
+!.vscode/mcp.json
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea
@@ -42,3 +43,4 @@ coverage
 
 # Misc
 *.tsbuildinfo
+.claude/settings.local.json
