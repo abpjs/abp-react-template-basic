@@ -33,7 +33,7 @@ const appRoutes: ABP.FullRoute[] = [
 ];
 
 // Combine app routes with account routes from @abpjs/account
-const routes: ABP.FullRoute[] = [...appRoutes, ...ACCOUNT_ROUTES];
+const routes: ABP.FullRoute[] = [...appRoutes, ...ACCOUNT_ROUTES.routes];
 
 // Define requirements with layout components from theme.basic
 const requirements: Config.Requirements = {
