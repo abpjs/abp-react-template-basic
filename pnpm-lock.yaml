@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@abpjs/account':
-        specifier: 1.1.0
-        version: 1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
+        specifier: 2.0.0
+        version: 2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
       '@abpjs/core':
-        specifier: 1.1.0
-        version: 1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
+        specifier: 2.0.0
+        version: 2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
       '@abpjs/theme-basic':
-        specifier: 1.1.0
-        version: 1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
+        specifier: 2.0.0
+        version: 2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
       '@abpjs/theme-shared':
-        specifier: 1.1.0
-        version: 1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
+        specifier: 2.0.0
+        version: 2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
       '@chakra-ui/react':
         specifier: ^3.3.1
         version: 3.31.0(@emotion/react@11.14.0(@types/react@19.2.8)(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -87,29 +87,29 @@ importers:
 
 packages:
 
-  '@abpjs/account@1.1.0':
-    resolution: {integrity: sha512-ch90qZMlSyDYRcz+7JTHIyEoLF8TSivPx+7gJ7rrQ+p/rD7aRXRI63X91PMYqrFlLpsQWOt+aCEmgiBhsd+KoA==}
+  '@abpjs/account@2.0.0':
+    resolution: {integrity: sha512-j2RinjSjbJRzl8/ZqOR0PwSSD8Ds+7V9b5s4ey4uny1405nzrC24NBzQmiZ+lUF1ZUGtacrBkoCPUMUD6TW35Q==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
       react-router-dom: '>=6.0.0'
 
-  '@abpjs/core@1.1.0':
-    resolution: {integrity: sha512-aiYzcHxg/2FEF3KIob1y8ttau8CuJf63ezxwgBQ1nugGuPsBeRruMO8CWi1syPWUxcv0SBItH7Npqp0qLDiWkg==}
+  '@abpjs/core@2.0.0':
+    resolution: {integrity: sha512-fgOGyXgOc+pS81VCXIDQ8/Ot+w3E812l8HdqPWzCPf4cI/TtrtiNVU9Y5Vkkh/zm7sm4Raac+TZYT2h1BNGPag==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
       react-router-dom: '>=6.0.0'
 
-  '@abpjs/theme-basic@1.1.0':
-    resolution: {integrity: sha512-SzYzWHYRFr2ezHTNlwCvDo0tmudnxw9Owy6hkVMryQSmzT29VjBchOX7VCI2YAxW/vH7VvP7lmhfHFdpLmaeAg==}
+  '@abpjs/theme-basic@2.0.0':
+    resolution: {integrity: sha512-Khwyql+5lkSi7ilRXfeMNfj4P0q3xp0wmdWEjSAlEnrJ0yrhCaAMWfmg9jThEvB+PVezrN+5PjdyG6pQKBgm9w==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
       react-router-dom: '>=6.0.0'
 
-  '@abpjs/theme-shared@1.1.0':
-    resolution: {integrity: sha512-etbvdLv+BOhkmucu920oohzHTPsvHwQ2uNKJ4Vy3PWXikZmV55OkTJb0VkGsJL94SmZa0WiYWsVoriRZ9X51nQ==}
+  '@abpjs/theme-shared@2.0.0':
+    resolution: {integrity: sha512-DWDboY6pPbEH69L9ZTfJ4STzCYi9KO2hxWybJs1jfB0wu7YKHdTSyeU/g6k1kHNamgZ7E+q8Sa8YbKpyAo1u4Q==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -1749,10 +1749,10 @@ packages:
 
 snapshots:
 
-  '@abpjs/account@1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)':
+  '@abpjs/account@2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)':
     dependencies:
-      '@abpjs/core': 1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
-      '@abpjs/theme-shared': 1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
+      '@abpjs/core': 2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
+      '@abpjs/theme-shared': 2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
       '@chakra-ui/react': 3.31.0(@emotion/react@11.14.0(@types/react@19.2.8)(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@emotion/react': 11.14.0(@types/react@19.2.8)(react@19.2.3)
       '@hookform/resolvers': 3.10.0(react-hook-form@7.71.1(react@19.2.3))
@@ -1769,7 +1769,7 @@ snapshots:
       - redux
       - supports-color
 
-  '@abpjs/core@1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)':
+  '@abpjs/core@2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)':
     dependencies:
       '@reduxjs/toolkit': 2.11.2(react-redux@9.2.0(@types/react@19.2.8)(react@19.2.3)(redux@5.0.1))(react@19.2.3)
       axios: 1.13.2
@@ -1785,10 +1785,10 @@ snapshots:
       - debug
       - redux
 
-  '@abpjs/theme-basic@1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)':
+  '@abpjs/theme-basic@2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)':
     dependencies:
-      '@abpjs/core': 1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
-      '@abpjs/theme-shared': 1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
+      '@abpjs/core': 2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
+      '@abpjs/theme-shared': 2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
       '@chakra-ui/react': 3.31.0(@emotion/react@11.14.0(@types/react@19.2.8)(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@emotion/react': 11.14.0(@types/react@19.2.8)(react@19.2.3)
       lucide-react: 0.400.0(react@19.2.3)
@@ -1803,9 +1803,9 @@ snapshots:
       - redux
       - supports-color
 
-  '@abpjs/theme-shared@1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)':
+  '@abpjs/theme-shared@2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)':
     dependencies:
-      '@abpjs/core': 1.1.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
+      '@abpjs/core': 2.0.0(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react-router-dom@7.12.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(redux@5.0.1)
       '@chakra-ui/react': 3.31.0(@emotion/react@11.14.0(@types/react@19.2.8)(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@emotion/react': 11.14.0(@types/react@19.2.8)(react@19.2.3)
       lucide-react: 0.400.0(react@19.2.3)

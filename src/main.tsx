@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { AbpProvider, type ABP, type Config, eLayoutType } from '@abpjs/core';
 import { ThemeBasicProvider, LAYOUTS } from '@abpjs/theme-basic';
-import { AccountProvider, ACCOUNT_ROUTES } from '@abpjs/account';
+import { AccountProvider } from '@abpjs/account';
 import App from './App';
 
 interface AppConfig {
@@ -27,13 +27,10 @@ interface AppConfig {
   };
 }
 
-// Define app-specific routes
-const appRoutes: ABP.FullRoute[] = [
+// Define app routes for the navigation system
+const routes: ABP.FullRoute[] = [
   { name: 'Home', path: '', order: 1, layout: eLayoutType.application },
 ];
-
-// Combine app routes with account routes from @abpjs/account
-const routes: ABP.FullRoute[] = [...appRoutes, ...ACCOUNT_ROUTES.routes];
 
 // Define requirements with layout components from theme.basic
 const requirements: Config.Requirements = {
