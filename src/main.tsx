@@ -19,12 +19,7 @@ interface AppConfig {
     baseUrl: string;
     name: string;
   };
-  apis: {
-    [key: string]: {
-      url: string;
-      rootNamespace: string;
-    };
-  };
+  apis: Config.Apis;
 }
 
 // Define app routes for the navigation system
