@@ -1,6 +1,6 @@
 {
   "name": "abp-react-template-basic",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "ABP React Starter Template - Basic",
   "type": "module",
   "scripts": {
@@ -17,10 +17,10 @@
     "proxy-remove": "abpjs proxy-remove app --target src"
   },
   "dependencies": {
-    "@abpjs/account": "3.1.0",
-    "@abpjs/core": "3.1.0",
-    "@abpjs/theme-basic": "3.1.0",
-    "@abpjs/theme-shared": "3.1.0",
+    "@abpjs/account": "3.2.0",
+    "@abpjs/core": "3.2.0",
+    "@abpjs/theme-basic": "3.2.0",
+    "@abpjs/theme-shared": "3.2.0",
     "@chakra-ui/react": "^3.3.1",
     "@emotion/react": "^11.14.0",
     "@reduxjs/toolkit": "^2.0.0",
@@ -32,7 +32,7 @@
     "react-router-dom": "^7.1.1"
   },
   "devDependencies": {
-    "@abpjs/schematics": "3.1.0",
+    "@abpjs/schematics": "3.2.0",
     "@eslint/js": "^9.18.0",
     "@types/node": "^25.0.9",
     "@types/react": "^19.0.3",
