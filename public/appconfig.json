@@ -1,12 +1,14 @@
 {
   "_comment": "Example configuration for testing. Replace with your actual ABP Framework backend URLs and client ID.",
   "oAuthConfig": {
-    "issuer": "http://localhost:44305/",
-    "redirectUri": "http://localhost:4202",
-    "clientId": "abp018_App",
-    "responseType": "code",
+    "authority": "http://localhost:44305/",
+    "client_id": "abp018_App",
+    "redirect_uri": "http://localhost:4202",
+    "post_logout_redirect_uri": "http://localhost:4202",
+    "response_type": "code",
     "scope": "offline_access abp018",
-    "requireHttps": false
+    "automaticSilentRenew": true,
+    "includeIdTokenInSilentRenew": true
   },
   "application": {
     "baseUrl": "http://localhost:4202",
